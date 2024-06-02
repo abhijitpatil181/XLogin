@@ -17,7 +17,7 @@ const LoginPage = () => {
         {!isSubmitted ? (
           <Form setIsSubmitted={setIsSubmitted} />
         ) : (
-          <p>Welcome User !</p>
+          <p>Welcome user</p>
         )}
       </div>
     </>
